@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "magento/language-de_de": {
+            "dev-master": {
+                "name": "magento/language-de_de",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vishalktpl/m2test1.git",
+                    "reference": "25ba318199ac321e1930c40ac2aecd2bdb8e4e9e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vishalktpl/m2test1/zipball/25ba318199ac321e1930c40ac2aecd2bdb8e4e9e",
+                    "reference": "25ba318199ac321e1930c40ac2aecd2bdb8e4e9e",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "100.0.*"
+                },
+                "time": "2015-12-28 07:40:06",
+                "type": "magento2-language",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ]
+                },
+                "license": [
+                    "OSL-3.0",
+                    "AFL-3.0"
+                ],
+                "description": "German (Germany) language",
+                "support": {
+                    "source": "https://github.com/vishalktpl/m2test1/tree/master",
+                    "issues": "https://github.com/vishalktpl/m2test1/issues"
+                }
+            }
+        }
+    }
+}

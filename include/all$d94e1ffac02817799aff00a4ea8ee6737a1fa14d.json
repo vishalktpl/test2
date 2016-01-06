@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "ktpl/hello": {
+            "dev-master": {
+                "name": "ktpl/hello",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vishalktpl/CHAT.git",
+                    "reference": "5a21a22466f709646cb9171e6a7f3a643af56a7b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vishalktpl/CHAT/zipball/5a21a22466f709646cb9171e6a7f3a643af56a7b",
+                    "reference": "5a21a22466f709646cb9171e6a7f3a643af56a7b",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "1.0.0-beta",
+                    "magento/magento-composer-installer": "*",
+                    "magento/module-backend": "1.0.0-beta",
+                    "magento/module-catalog": "1.0.0-beta",
+                    "magento/module-email": "1.0.0-beta",
+                    "magento/module-media-storage": "1.0.0-beta",
+                    "magento/module-store": "1.0.0-beta",
+                    "magento/module-theme": "1.0.0-beta",
+                    "magento/module-ui": "1.0.0-beta",
+                    "magento/module-variable": "1.0.0-beta",
+                    "magento/module-widget": "1.0.0-beta",
+                    "php": "~5.5.0|~5.6.0"
+                },
+                "time": "2015-12-28 12:44:51",
+                "type": "magento2-component",
+                "extra": {
+                    "map": [
+                        [
+                            "*",
+                            "dev/tools/Magento/Tools/Migration"
+                        ]
+                    ]
+                },
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/vishalktpl/CHAT/tree/master",
+                    "issues": "https://github.com/vishalktpl/CHAT/issues"
+                }
+            }
+        }
+    }
+}

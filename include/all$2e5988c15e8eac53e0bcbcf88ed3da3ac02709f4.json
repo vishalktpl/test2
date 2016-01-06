@@ -1,0 +1,85 @@
+{
+    "packages": {
+        "dys/module-team": {
+            "2.0.0": {
+                "name": "dys/module-team",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vishalktpl/CHAT.git",
+                    "reference": "30a2dd619de997550331497d120daf156109dcc0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vishalktpl/CHAT/zipball/30a2dd619de997550331497d120daf156109dcc0",
+                    "reference": "30a2dd619de997550331497d120daf156109dcc0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2015-12-29 11:05:06",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Ktpl\\Popup\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0",
+                    "AFL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/vishalktpl/CHAT/tree/v2.0.0",
+                    "issues": "https://github.com/vishalktpl/CHAT/issues"
+                }
+            },
+            "dev-master": {
+                "name": "dys/module-team",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vishalktpl/CHAT.git",
+                    "reference": "9574d25df8920b632750dfe1ee2b5103fa2057f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/vishalktpl/CHAT/zipball/9574d25df8920b632750dfe1ee2b5103fa2057f6",
+                    "reference": "9574d25df8920b632750dfe1ee2b5103fa2057f6",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "0.74.0-beta4",
+                    "magento/magento-composer-installer": "*",
+                    "magento/module-media-storage": "0.74.0-beta4",
+                    "php": "~5.5.0|~5.6.0"
+                },
+                "time": "2016-01-06 09:40:17",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Dys\\Team\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0",
+                    "AFL-3.0"
+                ],
+                "description": "N/A",
+                "support": {
+                    "source": "https://github.com/vishalktpl/CHAT/tree/master",
+                    "issues": "https://github.com/vishalktpl/CHAT/issues"
+                }
+            }
+        }
+    }
+}
